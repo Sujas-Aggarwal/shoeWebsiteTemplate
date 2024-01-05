@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleTablet.css" />
+    <link rel="stylesheet" href="styleMobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+  </head>
+  <body>
+    <div class="main container">
+      <!-- Navbar Starts Here -->
+      <nav class="container">
+        <div class="wrapper">
+          <h1>
+            <span class="stylish-text">C</span>razy<span class="stylish-text"
+              >S</span
+            ><span class="changing-title"></span>
+          </h1>
+          <div class="right-nav">
+            <ul class="menu-list">
+              <li>About</li>
+              <li>Features</li>
+              <li>Contact</li>
+              <li>Pricing</li>
+            </ul>
+            <div class="socials">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.0216 0.0899658C5.40735 0.0899658 0.0438232 5.5439 0.0438232 12.2723C0.0438232 17.6548 3.47582 22.2213 8.23495 23.8321C8.8336 23.945 9.05335 23.5679 9.05335 23.2461C9.05335 22.9556 9.04225 21.996 9.0371 20.978C5.70485 21.715 5.0017 19.5406 5.0017 19.5406C4.45685 18.1325 3.67179 17.7581 3.67179 17.7581C2.58504 17.002 3.75371 17.0175 3.75371 17.0175C4.95648 17.1033 5.5898 18.2729 5.5898 18.2729C6.6581 20.1353 8.39185 19.5969 9.07535 19.2856C9.18285 18.4985 9.4933 17.9606 9.8358 17.6566C7.1754 17.3486 4.3787 16.304 4.3787 11.636C4.3787 10.3059 4.8466 9.21915 5.6128 8.366C5.48845 8.05895 5.07845 6.8201 5.72885 5.14205C5.72885 5.14205 6.73465 4.81464 9.0236 6.3908C9.97905 6.1209 11.0037 5.9855 12.0216 5.9809C13.0395 5.9855 14.065 6.1209 15.0222 6.3908C17.3083 4.81464 18.3128 5.14205 18.3128 5.14205C18.9647 6.8201 18.5546 8.05895 18.4302 8.366C19.1982 9.21915 19.6629 10.3059 19.6629 11.636C19.6629 16.3151 16.8609 17.3453 14.1937 17.6469C14.6233 18.025 15.0061 18.7663 15.0061 19.903C15.0061 21.5328 14.9922 22.8447 14.9922 23.2461C14.9922 23.5703 15.2078 23.9501 15.815 23.8305C20.5715 22.2178 23.9992 17.653 23.9992 12.2723C23.9992 5.5439 18.6365 0.0899658 12.0216 0.0899658Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4.58043 17.5812C4.55405 17.6419 4.46043 17.6598 4.37514 17.6183C4.28826 17.5785 4.23947 17.496 4.26763 17.4353C4.29342 17.373 4.38724 17.3558 4.47391 17.3972C4.56099 17.4371 4.61057 17.5204 4.58043 17.5812Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.06561 18.1315C5.00846 18.1854 4.89679 18.1604 4.82102 18.0752C4.74267 17.9903 4.728 17.8767 4.78591 17.822C4.84482 17.7682 4.95312 17.7934 5.03166 17.8783C5.11001 17.9643 5.12531 18.077 5.06561 18.1315Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.53787 18.8331C5.46447 18.8849 5.34447 18.8363 5.27027 18.728C5.19692 18.6197 5.19692 18.4897 5.27187 18.4377C5.34627 18.3856 5.46447 18.4324 5.53967 18.54C5.61282 18.6499 5.61282 18.78 5.53787 18.8331Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.18487 19.511C6.11922 19.5846 5.97937 19.5648 5.87702 19.4644C5.77232 19.3661 5.74317 19.2267 5.80902 19.1531C5.87547 19.0793 6.01607 19.1 6.11922 19.1997C6.22317 19.2977 6.25487 19.4382 6.18487 19.511Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.07738 19.9045C7.04843 19.9999 6.91373 20.0433 6.77808 20.0028C6.64263 19.961 6.55393 19.8492 6.58133 19.7528C6.60948 19.6568 6.74478 19.6116 6.88143 19.655C7.01668 19.6965 7.10558 19.8075 7.07738 19.9045Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.05767 19.9776C8.06102 20.0781 7.94597 20.1614 7.80357 20.163C7.66037 20.1664 7.54452 20.0851 7.54297 19.9863C7.54297 19.8848 7.65542 19.8023 7.79862 19.7999C7.94102 19.797 8.05767 19.8777 8.05767 19.9776Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.96985 19.8196C8.9869 19.9176 8.8879 20.0183 8.7465 20.0449C8.60745 20.071 8.47875 20.0104 8.4611 19.9132C8.4438 19.8127 8.5446 19.7121 8.68345 19.686C8.82505 19.661 8.9518 19.7199 8.96985 19.8196Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 12C0 5.3726 5.3726 0 12 0C18.6274 0 24 5.3726 24 12C24 18.6274 18.6274 24 12 24C5.3726 24 0 18.6274 0 12ZM8.48025 9.9389H5.7608V18.1098H8.48025V9.9389ZM8.6594 7.41135C8.64175 6.6102 8.06885 6 7.1385 6C6.2082 6 5.6 6.6102 5.6 7.41135C5.6 8.1959 6.19025 8.82365 7.1032 8.82365H7.1206C8.06885 8.82365 8.6594 8.1959 8.6594 7.41135ZM18.2877 13.4249C18.2877 10.9152 16.9461 9.74705 15.1566 9.74705C13.7127 9.74705 13.0662 10.5401 12.7053 11.0964V9.93915H9.98555C10.0214 10.7058 9.98555 18.11 9.98555 18.11H12.7053V13.5467C12.7053 13.3025 12.723 13.0589 12.7949 12.8841C12.9915 12.3962 13.439 11.8911 14.1903 11.8911C15.1747 11.8911 15.5682 12.6404 15.5682 13.7383V18.1098H18.2876L18.2877 13.4249Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 12C0 5.3726 5.3726 0 12 0C18.6274 0 24 5.3726 24 12C24 18.6274 18.6274 24 12 24C5.3726 24 0 18.6274 0 12ZM11.6406 9.75375L11.6658 10.169L11.2461 10.1181C9.71845 9.92325 8.38385 9.26225 7.25065 8.15215L6.6967 7.60135L6.554 8.0081C6.2518 8.9148 6.44485 9.8724 7.0744 10.5164C7.41015 10.8723 7.3346 10.9232 6.75545 10.7113C6.554 10.6435 6.3777 10.5927 6.36095 10.6181C6.3022 10.6774 6.5036 11.4486 6.6631 11.7536C6.88135 12.1773 7.3262 12.5925 7.81305 12.8383L8.22435 13.0332L7.7375 13.0416C7.26745 13.0416 7.25065 13.0501 7.30105 13.2281C7.4689 13.7789 8.132 14.3636 8.87065 14.6179L9.3911 14.7958L8.9378 15.0669C8.2663 15.4567 7.4773 15.6771 6.6883 15.694C6.31055 15.7025 6 15.7364 6 15.7619C6 15.8465 7.02405 16.3211 7.62 16.5075C9.40785 17.0583 11.5315 16.8211 13.1263 15.8805C14.2594 15.211 15.3926 13.8806 15.9214 12.5926C16.2068 11.9061 16.4922 10.652 16.4922 10.0504C16.4922 9.66055 16.5173 9.6097 16.9874 9.1436C17.2644 8.87245 17.5246 8.57585 17.575 8.4911C17.6589 8.3301 17.6506 8.3301 17.2225 8.47415C16.509 8.7284 16.4082 8.6945 16.7608 8.31315C17.021 8.042 17.3316 7.5505 17.3316 7.40645C17.3316 7.381 17.2057 7.4234 17.063 7.49965C16.9119 7.5844 16.5762 7.7115 16.3243 7.7878L15.871 7.93185L15.4598 7.6522C15.2332 7.49965 14.9141 7.3302 14.7463 7.27935C14.3182 7.1607 13.6635 7.17765 13.2774 7.31325C12.2282 7.69455 11.5651 8.67755 11.6406 9.75375Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <button class="get-started-button">
+              <span class="get-started-button-bg"></span>
+              <p>Get&nbspStarted</p>
+            </button>
+            <div class="burger-menu">
+              <svg
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                id="burger-button"
+                onclick="toggleMenu()"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Ends Here -->
+      <!-- Header Starts Here -->
+      <section class="header container">
+        <div class="wrapper">
+          <div class="content-box">
+            <h1>
+              Your Not So <wbr />
+              <span class="stylish-text">"Average"</span> Shoes
+            </h1>
+            <p>Clever Designs Made for Clever Minds.</p>
+            <button class="get-started-button">
+              <span class="get-started-button-bg"></span>
+              <p>Get&nbspStarted</p>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Header Ends Here -->
+      <section class="services container">
+        <div class="wrapper">
+          <div class="service-box">
+            <h2>Lorem Iposum Donor</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel</p>
+            <svg
+              class="right-arrow"
+              width="24"
+              fill="white"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
+              />
+            </svg>
+          </div>
+          <div class="service-box">
+            <h2>Lorem Iposum Donor</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel</p>
+            <svg
+              class="right-arrow"
+              width="24"
+              fill="white"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
+              />
+            </svg>
+          </div>
+          <div class="service-box">
+            <h2>Lorem Iposum Donor</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel</p>
+            <svg
+              class="right-arrow"
+              width="24"
+              fill="white"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
+              />
+            </svg>
+          </div>
+          <div class="service-box">
+            <h2>Lorem Iposum Donor</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel</p>
+            <svg
+              class="right-arrow"
+              width="24"
+              fill="white"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
+              />
+            </svg>
+          </div>
+          <div class="service-box">
+            <h2>Lorem Iposum Donor</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel</p>
+            <svg
+              class="right-arrow"
+              width="24"
+              fill="white"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
+              />
+            </svg>
+          </div>
+          <div class="service-box">
+            <h2>Lorem Iposum Donor</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel</p>
+            <svg
+              class="right-arrow"
+              width="24"
+              fill="white"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!-- Header Ends Here -->
+      <!-- About Starts Here -->
+      <section class="about container">
+        <div class="wrapper">
+          <h2 style="align-items: center; display: flex; gap: 10px">
+            Our Latest Release
+            <svg
+              class="right-arrow"
+              width="24"
+              fill="white"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
+              />
+            </svg>
+          </h2>
+          <br />
+          <div class="carousel">
+            <div class="img-box">
+              <div class="img-div">
+                <img src="./Assets/shoe1Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe3Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe4Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe1Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe3Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe4Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe1Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe3Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe4Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe1Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe3Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe4Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe1Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe3Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe4Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe1Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe3Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe4Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe3Cropped.jpg" alt="" />
+              </div>
+              <div class="img-div">
+                <img src="./Assets/shoe4Cropped.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about container">
+        <div class="wrapper">
+          <div class="text-box">
+            <span class="header-line"></span>
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipisicing elit. Sunt expedita facere quam illum facilis sequi
+              nobis id hic rem explicabo fugiat, impedit <br />
+              <br />incidunt vero quisquam temporibus est ipsam, culpa,
+              praesentium reiciendis sit quidem<br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- About Ends Here -->
+      <!-- Features Starts Here -->
+      <section class="container features">
+        <div class="wrapper">
+          <h2>Our Features</h2>
+          <div class="feature">
+            <div class="feature-title">
+              Lorem ipsum dolor sit amet consectetur.
+              <svg
+                height="18px"
+                width="18px"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 309.059 309.059"
+                xml:space="preserve"
+              >
+                <g>
+                  <g>
+                    <path
+                      style="fill: red"
+                      d="M280.71,126.181h-97.822V28.338C182.889,12.711,170.172,0,154.529,0S126.17,12.711,126.17,28.338
+                       v97.843H28.359C12.722,126.181,0,138.903,0,154.529c0,15.621,12.717,28.338,28.359,28.338h97.811v97.843
+                       c0,15.632,12.711,28.348,28.359,28.348c15.643,0,28.359-12.717,28.359-28.348v-97.843h97.822
+                       c15.632,0,28.348-12.717,28.348-28.338C309.059,138.903,296.342,126.181,280.71,126.181z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="feature-details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-title">
+              Lorem ipsum dolor sit amet consectetur.
+              <svg
+              height="18px"
+              width="18px"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 309.059 309.059"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    style="fill: red"
+                    d="M280.71,126.181h-97.822V28.338C182.889,12.711,170.172,0,154.529,0S126.17,12.711,126.17,28.338
+                     v97.843H28.359C12.722,126.181,0,138.903,0,154.529c0,15.621,12.717,28.338,28.359,28.338h97.811v97.843
+                     c0,15.632,12.711,28.348,28.359,28.348c15.643,0,28.359-12.717,28.359-28.348v-97.843h97.822
+                     c15.632,0,28.348-12.717,28.348-28.338C309.059,138.903,296.342,126.181,280.71,126.181z"
+                  />
+                </g>
+              </g>
+            </svg>
+            </div>
+            <div class="feature-details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-title">
+              Lorem ipsum dolor sit amet consectetur.
+              <svg
+              height="18px"
+              width="18px"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 309.059 309.059"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    style="fill: red"
+                    d="M280.71,126.181h-97.822V28.338C182.889,12.711,170.172,0,154.529,0S126.17,12.711,126.17,28.338
+                     v97.843H28.359C12.722,126.181,0,138.903,0,154.529c0,15.621,12.717,28.338,28.359,28.338h97.811v97.843
+                     c0,15.632,12.711,28.348,28.359,28.348c15.643,0,28.359-12.717,28.359-28.348v-97.843h97.822
+                     c15.632,0,28.348-12.717,28.348-28.338C309.059,138.903,296.342,126.181,280.71,126.181z"
+                  />
+                </g>
+              </g>
+            </svg>
+            </div>
+            <div class="feature-details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-title">
+              Lorem ipsum dolor sit amet consectetur.
+              <svg
+              height="18px"
+              width="18px"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 309.059 309.059"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    style="fill: red"
+                    d="M280.71,126.181h-97.822V28.338C182.889,12.711,170.172,0,154.529,0S126.17,12.711,126.17,28.338
+                     v97.843H28.359C12.722,126.181,0,138.903,0,154.529c0,15.621,12.717,28.338,28.359,28.338h97.811v97.843
+                     c0,15.632,12.711,28.348,28.359,28.348c15.643,0,28.359-12.717,28.359-28.348v-97.843h97.822
+                     c15.632,0,28.348-12.717,28.348-28.338C309.059,138.903,296.342,126.181,280.71,126.181z"
+                  />
+                </g>
+              </g>
+            </svg>
+            </div>
+            <div class="feature-details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis dolorum quaerat autem iusto nemo provident facere.
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Features Ends Here -->
+      <!-- Watch Video Starts Here -->
+      <section class="container watch-video">
+        <div class="wrapper">
+            <h2>
+                Watch The Video
+            </h2>
+            <iframe  src="https://www.youtube.com/embed/orIdmuhBw9U?si=jr2e0PS0eT3rS-_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+      <!-- Watch Video Ends Here -->
+      <!-- Map Section Starts Here -->
+      <section class="map container">
+        <div class="wrapper">
+            <h1>Our Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.6772581849445!2d82.25102437840887!3d26.729352456221918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3990a7b320e49a83%3A0x7df69d2c9020d365!2sAyodhya%20Ram%20mandir!5e0!3m2!1sen!2sin!4v1704490595314!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <!-- Map Section Ends Here -->
+      <!-- Footer Starts Here -->
+      <footer class="container footer">
+        <div class="wrapper">
+            <p>&copy;Copyright 2024 - Demo Template by `Sujas Aggarwal`</p>
+        </div>
+      </footer>
+      <!-- Footer Ends Here -->
+
+    </div>
+
+    <script>
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+      const menuButton = document.getElementById("burger-button");
+      const menu = document.getElementsByClassName("menu-list")[0];
+      const menuLinks = document.querySelectorAll(".menu-list li");
+      const socials = document.getElementsByClassName("socials")[0];
+      function toggleMenu() {
+        if (menuLinks[0].style.color != "white") {
+          menu.style.transform = "translate(0,0vh)";
+          socials.style.transform = "translate(-50%,-100%)";
+          menuLinks.forEach((e) => {
+            e.style.color = "white";
+          });
+        } else {
+          menu.style.transform = "translate(0,-40vh)";
+          menuLinks.forEach((e) => {
+            e.style.color = "#040402";
+          });
+          socials.style.transform = "translate(-50%,100%)";
+        }
+      }
+      document.body.onresize = () => {
+        if (window.innerWidth < 600) {
+          window.onresize = () => {
+            if (window.innerWidth > 600) {
+              location.reload();
+            }
+          };
+        }
+      };
+      const features = document.querySelector(".features")
+      features.onclick = (e)=>{
+        if (e.target.nextElementSibling.style.display != "flex"){
+        e.target.nextElementSibling.style.display = "flex"
+        e.target.firstElementChild.style.transform = "rotate(45deg)"
+
+    }
+        else{
+            e.target.nextElementSibling.style.display = "none"
+        e.target.firstElementChild.style.transform = "rotate(0deg)"
+
+        }
+
+      }
+    </script>
+  </body>
+</html>

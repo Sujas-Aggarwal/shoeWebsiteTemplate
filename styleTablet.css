@@ -1,0 +1,64 @@
+@media screen and (max-width: 850px) {
+  nav > .wrapper > h1 {
+    font-size: 20px;
+  }
+  nav > .wrapper > .right-nav > .menu-list > li,
+  .get-started-button {
+    font-size: 12px;
+  }
+  nav > .wrapper > .right-nav > .socials > *:hover {
+    margin-top: 0;
+  }
+  nav > .wrapper > .right-nav > .socials {
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+    flex-direction: column;
+    background: rgba(3, 3, 2, 0.1);
+    padding: 8px 5px 8px 0.8vw;
+    border-radius: 0px 20px 20px 0px;
+    gap: 20px;
+  }
+  .header > .wrapper > .content-box > h1 {
+    font-size: 30px;
+  }
+  .header > .wrapper > .content-box > h1 > span {
+    font-size: 35px;
+  }
+  .header > .wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+  .header > .wrapper > .content-box {
+    text-align: left;
+    align-items: self-start;
+  }
+  .header > .wrapper > .content-box > p {
+    display: none;
+  }
+  .services > .wrapper > .service-box {
+    width: 260px;
+    height: 260px;
+  }
+  .services > .wrapper > .service-box > h2 {
+    font-size: 16px;
+  }
+  .services > .wrapper > .service-box > p {
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+  .about > .wrapper > .carousel > .img-box > .img-div {
+    width: 70vw;
+  }
+  .about > .wrapper > .carousel > .img-box {
+    margin: 0 10vw;
+  }
+  .about > .wrapper > .text-box {
+    width: 80%;
+  }
+  .watch-video > .wrapper iframe {
+    width: 500px;
+    height: 300px;
+  }
+}

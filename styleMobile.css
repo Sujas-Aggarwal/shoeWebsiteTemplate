@@ -1,0 +1,92 @@
+/* Mobile View Starts Here */
+@media screen and (max-width: 600px) {
+    p{
+        font-size: 14px;
+    }
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  .menu-list {
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    margin: 0;
+    height: 25vh;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    font-size: 12px;
+    top: 11%;
+    left: 0;
+    background: rgba(0, 0, 0, .1);
+    transition: transform 0.8s;
+    z-index: -1;
+    transform: translate(0, -40vh);
+  }
+  .menu-list > li {
+    transition: 0.5s;
+    color: #040402;
+  }
+  .menu-list > li:hover {
+    margin-top: 0px;
+  }
+  .right-nav > .burger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+  nav > .wrapper > .right-nav > .socials {
+    flex-direction: row;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    padding: 10px 20px;
+    border-radius: 20px 20px 0px 0px;
+    transition: transform 0.8s;
+    transform: translate(-50%, 100%);
+  }
+  nav > .wrapper > h1 {
+    font-size: 16px;
+  }
+  .get-started-button {
+    padding: 5px 6px;
+  }
+  .header {
+    background-image: linear-gradient(
+        -90deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("./Assets/shoe4.jpg");
+  }
+  .header > .wrapper {
+    width: 100%;
+  }
+  .header > .wrapper > .content-box {
+    gap: 9px;
+  }
+  .header > .wrapper > .content-box > h1 {
+    font-size: 18px;
+  }
+  .services > .wrapper > .service-box {
+    width: 300px;
+    height: 300px;
+  }
+  .about > .wrapper > .text-box {
+    width: 90%;
+  }
+  .about > .wrapper > .carousel > .img-box > .img-div {
+    width: 90vw;
+  }
+  .about>.wrapper>.carousel>.img-box{
+    margin:0 0vw;
+}
+.features>.wrapper>.feature>.feature-title{
+    font-size: 14px;
+}
+.features>.wrapper>.feature>.feature-details{
+    font-size: 12px;
+}
+.watch-video>.wrapper iframe{
+    width: 300px;
+    height: 160px;
+}
+}
