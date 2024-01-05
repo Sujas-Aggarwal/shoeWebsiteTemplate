@@ -562,8 +562,14 @@
           };
         }
       };
-      const features = document.querySelector(".features")
-      features.onclick = (e)=>{
+      const features = document.querySelectorAll(".feature-title")
+      features.forEach((k)=>{
+        k.onclick = (e)=>{
+            togglerFe(e)
+        }
+      })
+
+      function togglerFe(e){
         if (e.target.nextElementSibling.style.display != "flex"){
         e.target.nextElementSibling.style.display = "flex"
         e.target.firstElementChild.style.transform = "rotate(45deg)"
