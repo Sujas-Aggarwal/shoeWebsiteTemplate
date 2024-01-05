@@ -428,7 +428,7 @@ nav > .wrapper > .right-nav > .socials > *:hover {
     justify-content: center;
     align-items: center;
     background: #191919;
-    margin: 10vh 0;
+    margin-top: 10vh;
 }
 .map .wrapper{
     margin: 5vh 0;
